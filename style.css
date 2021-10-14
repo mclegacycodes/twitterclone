@@ -4,7 +4,25 @@
     --text-color: rgb(217, 217, 217);
 }
     
-
+body{
+    background-color: var(--primary);
+}
+#left-section{
+    background-image: url('/images/mumbai.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: black;
+    
+}
+#left-section i{
+    color: var(--accent);
+    font-size: 20rem;
+    
+}
 .footer-item{
     font-size: 12px;
     padding: 8px;
@@ -13,11 +31,60 @@
     text-decoration: underline;
 }
 .container-footer{
-    width: 90%;
+    /* width: 90%; */
     text-align: center;
     padding: 12px 0px;
 }
 .dark-bg{
     background-color: var(--primary);
     color: var(--text-color);
+}
+/* 
+right section */
+
+#right-section{
+    background-color: var(--primary);
+    color: var(--text-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#right-section #top-twit-icon{
+    font-size: 3rem;
+}
+#right-section h1{
+    font-size: 4rem;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+
+
+#right-section h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.btn-wrapper span{
+    color: var(--accent);
+}
+
+.btn-wrapper span:hover{
+    text-decoration: underline;
+}
+.agreement{
+    font-size: 12px;
+    max-width: 300px;
+}
+
+
+#right-section .btn-block{
+    padding: 8px 16px;
+    max-width: 300px;
+    border-radius: 20px;
+}
+.btn-wrapper >button i{
+    font-size:25px;
+    margin-right: 20px;
+    /* height: 5px; */
+    /* width: 5px; */
+   
 }
