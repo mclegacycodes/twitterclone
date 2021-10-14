@@ -1,0 +1,23 @@
+:root{
+    --primary: black;
+    --accent: rgb(29, 155, 240);
+    --text-color: rgb(217, 217, 217);
+}
+    
+
+.footer-item{
+    font-size: 12px;
+    padding: 8px;
+}
+.footer-item:hover{
+    text-decoration: underline;
+}
+.container-footer{
+    width: 90%;
+    text-align: center;
+    padding: 12px 0px;
+}
+.dark-bg{
+    background-color: var(--primary);
+    color: var(--text-color);
+}
