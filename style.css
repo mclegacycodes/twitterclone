@@ -46,6 +46,7 @@ right section */
     background-color: var(--primary);
     color: var(--text-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #right-section #top-twit-icon{
@@ -54,7 +55,7 @@ right section */
 #right-section h1{
     font-size: 4rem;
     font-weight: 700;
-    word-wrap: break-word;
+    word-wrap: wrap;
 }
 
 
@@ -84,7 +85,15 @@ right section */
 .btn-wrapper >button i{
     font-size:25px;
     margin-right: 20px;
-    /* height: 5px; */
-    /* width: 5px; */
+
    
+}
+
+
+/* media queries */
+@media (max-width:750px) {
+    #right-section{
+        width: 100%;
+    }
+    
 }
