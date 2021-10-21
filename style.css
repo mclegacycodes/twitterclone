@@ -89,7 +89,71 @@ right section */
    
 }
 
+/* form card  */
+#form-card{
+    background-color: var(--primary);
+    color:rgba(255, 255, 255, 0.452);
+    border-radius: 16px;
+}
+#form-card h3{
+color:var(--text-color);
+font-weight: bold;
+}
+.input-wrapper{
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    padding: 8px;
 
+}
+
+.form-icons{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.form-icons span:first-child{
+    /* background-color: rgba(255, 255, 255, 0.253); */
+    padding: 6px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.font-bold{
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--text-color);
+}
+.font-small{
+    font-size: 14px;
+    font-weight: 400;
+}
+.space-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+    padding:0;
+}
+
+.form-text-tranform{
+    transform: translateY(10px);
+}
+.form-text-tranform .hide{
+    visibility: hidden;
+}
+.form-container{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+}
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
 /* media queries */
 @media (max-width:750px) {
     #right-section{
