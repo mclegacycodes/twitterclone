@@ -142,7 +142,7 @@ font-weight: bold;
 .form-text-tranform{
     transform: translateY(10px);
 }
-.form-text-tranform .hide{
+ .hide{
     visibility: hidden;
 }
 .form-container{
